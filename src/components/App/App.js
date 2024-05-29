@@ -1,16 +1,8 @@
-import React from 'react';
-import './App.css';
-import SearchBox from '../SearchBox/SearchBox';
+import React from "react";
+import "./App.css";
 
-import {fetchVideos} from '../../api/youtube';
+// import { fetchVideos } from "../../api/youtube";
 
-const App = () => (
-  <div className="App">
-    Heloooo
-      <header className="App-header">
-      <SearchBox search = {fetchVideos}/>
-      </header>
-    </div>
-  );
+const App = () => <div className="App">Hello World</div>;
 
 export default App;

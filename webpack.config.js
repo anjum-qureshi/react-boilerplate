@@ -6,7 +6,7 @@ const webpack = require('webpack')
 const htmlPlugin = new HtmlWebPackPlugin({
   template: "./public/index.html",
   favicon: "./public/favicon.ico",
-  title: "vellyscope",
+  title: "WhereIsMyFlight",
   mobile: true,
 });
 
